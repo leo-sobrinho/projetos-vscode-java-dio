@@ -101,5 +101,18 @@ public class Operadores {
         simNao = numero1a6 < numero2a6;
 
         System.out.println("numero1a6 é menor que numero2a6? " + simNao);
+        
+        //Aula 7
+        
+        boolean condicao1=true;
+
+        boolean condicao2=false;
+
+        if(condicao1 && condicao2)
+	        System.out.println("As duas condições são verdadeiras.");
+
+        //Se condicao1 OU condicao2 for verdadeira, executar código.
+        else if(condicao1 || condicao2)
+	        System.out.println("Uma das condições é verdadeira.");
     }
 }
